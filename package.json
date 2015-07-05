@@ -1,0 +1,15 @@
+{
+  "name": "pusheencss",
+  "version": "1.0.0",
+  "description": "Home for pusheen",
+  "main": "index.js",
+  "scripts": {
+    "start": "postcss --use autoprefixer src.css > base.css"
+  },
+  "author": "Voby",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^5.2.0",
+    "postcss-cli": "^1.3.1"
+  }
+}
